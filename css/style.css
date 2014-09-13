@@ -1,11 +1,8 @@
-h1{
-  color: hotpink;
-}
 p{
-  color: skyblue;
+  color: lightgrey;
 }
 h1{
-  color: hotpink;
+  color: grey;
   font-size: 44px;
   text-transform: uppercase;
   
