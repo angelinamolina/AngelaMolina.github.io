@@ -1,12 +1,24 @@
-<h1>{{ site.title }}</h1>
-<h2>{{ page.title }}</h2>
+<!Doctype html>
+<head>
+  <meta charset="utf-8">
+  <title>Angela Molina</title>
+</head>
+<body>
+ <header>
+  <h1>{{ site.title }}</h1>
+  <h2>{{ page.title }}</h2>
+ </header>
+ <nav>
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="kittens.html">Kittens</a></li>
+  </ul>
+ </nav>
+ <main>
+  <hr />
 
-<p>Page:</p>
-<ul>
-  <li><a href="index.html">Home</a></li>
-  <li><a href="kittens.html">Kittens</a></li>
-</ul>
-
-<hr />
-
-{{ content }}
+  {{ content }}  
+    
+  </main>
+</body>
+</html>
