@@ -2,7 +2,11 @@
 layout: default
 title: Index
 ---
-
+<ul>
+  {% for post in site.posts %}
+    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+  {% endfor %}
+</ul>
 <p>This is the index page</p>
 <p>Some people like dogs, but I prefer <a href="kittens.html">Kittens!</a></p>
 <p>Here is a cute puppy too!<img src="http://www.imgion.com/images/01/White-Cute-Puppy-.jpg"></p>
